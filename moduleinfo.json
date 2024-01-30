@@ -1,0 +1,33 @@
+{
+    "archiveName": "grandeljay/noimage",
+    "description": "Allows changing the default noimage.gif.",
+    "developer": "grandeljay",
+    "name": "Change noimage.gif",
+    "shortDescription": "Allows changing the default noimage.gif.",
+    "developerWebsite": "https://github.com/grandeljay",
+    "website": "https://github.com/grandeljay/modified-noimage",
+    "sourceDir": "src",
+    "version": "auto",
+    "category": "nocategory",
+    "tags": "image",
+    "price": "",
+    "modifiedCompatibility": [
+        "2.0.7.2"
+    ],
+    "require": {
+        "composer/autoload": "^1.3.0",
+        "robinthehood/modified-std-module": "^0.9.0",
+        "grandeljay/translator": "^0.1.1"
+    },
+    "php": {
+        "version": "^8.0.0"
+    },
+    "mmlc": {
+        "version": "^1.20.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grandeljay\\Noimage\\": "src-mmlc"
+        }
+    }
+}
