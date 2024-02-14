@@ -10,16 +10,16 @@
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
  */
 
+use Grandeljay\Noimage\Constants;
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
 class grandeljay_noimage extends StdModule
 {
     public const VERSION = '0.1.0';
-    public const NAME    = 'MODULE_PRODUCT_GRANDELJAY_NOIMAGE';
 
     public function __construct()
     {
-        parent::__construct(self::NAME);
+        parent::__construct(Constants::MODULE_NAME);
 
         $this->checkForUpdate(true);
     }
